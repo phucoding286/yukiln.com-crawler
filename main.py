@@ -13,7 +13,7 @@ limit_batch_num = 1_000_000
 current_file_crawlpart = f"{datasets_folder}/crawlpart1.json"
 writer_metadata_path = f"{datasets_folder}/metadata.json"
 buffer_size = 128
-cooldown = 2
+cooldown = 1
 # loop text là phần text thường xuất hiện nhiều nhất trong nội dung và tần suất crawl, buộc phải bỏ qua nếu muốn dữ liệu sạch.
 loop_text = "#### Thông tin\n#### Liên hệ\n• Email: yukiln.trans@gmail.com\n©  Yukiln.com - All rights reserved\n©  Yukiln.com - All rights reserved\n### ĐĂNG NHẬP\nTên đăng nhập hoặc Email\n\nMật khẩu\n\nGhi nhớ\nQuên mật khẩu ?\nQuay về Yukiln - Đọc Light Novel, Truyện Chữ\n### ĐĂNG KÝ\nVui lòng nhập đầy đủ thông tin bên dưới\nTên tài khoản\n\nĐịa chỉ Email\n\nMật khẩu\n\nĐăng nhập|Quên mật khẩu ?\nQuay về Yukiln - Đọc Light Novel, Truyện Chữ\n### Quên mật khẩu ?\nPlease enter your username or email address. You will receive a link to create a new password via email.\nUsername or Email Address\n\n← Back to  Yukiln - Đọc Light Novel, Truyện Chữ"
 
